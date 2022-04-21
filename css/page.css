@@ -1,0 +1,399 @@
+@media screen and (min-width :1280px) and (max-width : 1599px) {
+    header {position: relative; width: 100%; height: 80px;}
+    header h1 {height: 70px; padding: 0px; margin: 10px 0 0 30px;}
+    header  ul {
+        position: absolute;
+        top: 20px; right: 300px;
+        /* display: inline-block; */
+    }
+
+    header  ul li {
+        margin-left: 35px;
+        display: inline-block;
+        text-align: center;
+        font-size: 35px; font-family: 'BenchNine', sans-serif;
+        margin-bottom: 30px;
+    }
+    header  ul li a {
+       z-index: 1;
+    }
+
+    header  ul li a  span {
+        position: absolute;
+        top: 30px; left: 0px;
+        /* display: none; */
+        width: 0%;
+        height: 10px;
+        background-color: #f29696;
+    }
+
+
+    header div  {
+        width: 200px; height: 47px; position: absolute; top: 30px;
+       left: 85%;
+    
+    }
+    
+
+    nav {width: 100%; margin-left: 0px;}
+    section {width: 100%; margin-left: 0px;}
+}
+
+
+
+   
+
+@media screen and (min-width : 1024px) and (max-width : 1279px) {
+    header {position: relative; width: 100px; height: 80px;}
+    header h1 {height: 70px; padding: 0px; margin: 10px 0 0 30px;}
+    header  ul {
+        position: absolute;
+        top: 20px; right: -900px;
+        /* display: inline-block; */
+    }
+
+    header  ul li {
+        margin-left: 35px;
+        display: inline-block;
+        text-align: center;
+        font-size: 35px; font-family: 'BenchNine', sans-serif;
+        margin-bottom: 30px;
+    }
+
+    header  ul li a  span {
+        position: absolute;
+        top: 30px; left: 40;
+        /* display: none; */
+        width: 0%;
+        height: 10px;
+        background-color: #f29696;
+
+    }
+
+
+    header div  {
+      display: none;
+    }
+    
+
+    nav {width: 100%; margin-left: 0px;}
+    section {width: 100%; margin-left: 0px;}
+
+    section article:nth-child(1) {width: 75%;}
+    section article:nth-child(2) {width: 25%;}
+    section article:nth-child(2) div p {
+       margin: 20px 0 0 20px;
+    }
+    section article:nth-child(2) div p strong {
+        line-height: 30px;
+        font-size: 30px;
+    }
+    section article:nth-child(2) div p em {
+        top: 75px;
+        width: 90%;
+    }
+    section article:nth-child(3) {width: 25%;}
+    section article:nth-child(4) {width: 25%;}
+    section article:nth-child(5) {width: 25%;}
+    section article:nth-child(6) {width: 50%;}
+    section article:nth-child(7) {width: 50%;}
+    section article:nth-child(8) {width: 25%;}
+    section article:nth-child(9) {width: 25%;}
+    section article:nth-child(10) {width: 50%;}
+    section article:nth-child(11) {width: 25%;}
+    section article:nth-child(12) {width: 25%;}
+    
+}
+
+@media screen and (min-width : 780px) and (max-width : 1023px) {
+    header {
+        position: relative; width: 100%; height: 80px;
+    }
+    header h1 {height: 70px; padding: 0px; margin: 10px 0 0 30px;}
+    header  ul {
+        position: absolute;
+        top: 20px; right: 30px;
+        /* display: inline-block; */
+    }
+
+    header  ul li {
+        margin-left: 20px;
+        display: inline-block;
+        text-align: center;
+        font-size: 35px; font-family: 'BenchNine', sans-serif;
+        margin-bottom: 30px;
+    }
+    header  ul li a { 
+        z-index: 1;
+    }
+    header  ul li a  span {
+        position: absolute;
+        top: 30px; left: 0px;
+        /* display: none; */
+        width: 0%;
+        height: 10px;
+        background-color: #f29696;
+    }
+
+
+    header div  {
+      display: none;
+    }
+ 
+    nav {
+        width: 100%; margin-left: 0px;
+    }
+    section {width: 100%; margin-left: 0px;}
+
+    section article:nth-child(1) {width: 100%; height: 400px;}
+    section article:nth-child(2) {width: 66.6666%;}
+    section article:nth-child(3) {width: 33.3333%;}
+    section article:nth-child(4) {width: 33.3333%; display: none;}
+    section article:nth-child(5) {width: 33.3333%;}
+    section article:nth-child(6) {width: 66.6666%;}
+    section article:nth-child(7) {width: 66.6666%; display: none;}
+    section article:nth-child(8) {width: 33.3333%;}
+    section article:nth-child(9) {width: 33.3333%;}
+    section article:nth-child(10) {width: 66.6666%; display: none;}
+    section article:nth-child(11) {width: 33.3333%;}
+    section article:nth-child(12) {width: 33.3333%;display: none;}
+}
+
+
+@media screen and (min-width : 640px) and (max-width : 779px) {
+    header {
+        position: relative; width: 100%; height: 80px;
+    }
+    header h1 {
+        width: 180px; height: 60px;
+        box-sizing: border-box;
+        padding: 0;
+        margin: 10px 0 0 15px;
+        font-size: 60px;
+    }
+    header  ul {
+        position: absolute;
+        top: 20px; right: 30px;
+        /* display: inline-block; */
+    }
+
+    header  ul li {
+        margin-left: 20px;
+        display: inline-block;
+        text-align: center;
+        font-size: 30px; font-family: 'BenchNine', sans-serif;
+        margin-bottom: 30px;
+    }
+    header  ul li a { 
+        z-index: 1;
+    }
+    header  ul li a  span {
+        position: absolute;
+        top: 25px; left: 0px;
+        /* display: none; */
+        width: 0%;
+        height: 10px;
+        background-color: #f29696;
+    }
+
+
+    header div  {
+      display: none;
+    }
+ 
+    nav {
+        width: 100%; margin-left: 0px;
+    }
+    section {width: 100%; margin-left: 0px;}
+
+    section article:nth-child(1) {width: 100%; height: 400px;}
+    section article:nth-child(2) {width: 100%;}
+    section article:nth-child(3) {width: 33.3333%;display: none;}
+    section article:nth-child(4) {width: 100%; display: none;}
+    section article:nth-child(5) {width: 50%;}
+    section article:nth-child(6) {width: 50%;}
+    section article:nth-child(6) div p {margin: 40px 0 0 20px;}
+    section article:nth-child(6) div p em {
+        top: 80px;
+    }
+    section article:nth-child(7) {width: 66.6666%; display: none;}
+    section article:nth-child(8) {width: 50%;}
+    section article:nth-child(9) {width: 50%;}
+    section article:nth-child(10) {width: 66.6666%; display: none;}
+    section article:nth-child(11) {width: 50%;}
+    section article:nth-child(12) {width: 50%;}
+}
+
+@media screen and (min-width : 480px) and (max-width : 639px) {
+    header {
+        position: relative; width: 100%; height: 130px;
+    }
+    header h1 {
+        position: relative;
+        top: -10px; left: 0px; 
+        width: 150px; height: 45px;
+        box-sizing: border-box;
+        padding: 0;
+        font-size: 50px;
+    }
+    header  ul {
+        position: absolute;
+        top: 90px; right: 10px;
+        /* display: inline-block; */
+    }
+
+    header  ul li {
+        float: left; 
+        margin-left: 15px;
+        text-align: center;
+        font-size: 30px; font-family: 'BenchNine', sans-serif;
+    }
+    header  ul li a { 
+        z-index: 1;
+    }
+    header  ul li a  span {
+        position: absolute;
+        top: 25px; left: 0px;
+        /* display: none; */
+        width: 0%;
+        height: 10px;
+        background-color: #f29696;
+    }
+
+
+    header div  {
+      display: none;
+    }
+    nav {
+        display: none;
+    }
+    section {width: 100%; margin-left: 0px;}
+    section article {height: 150px;}
+
+    section article:nth-child(1) {width: 100%; height: 300px;}
+    section article:nth-child(1) div span {font-size: 60px;}
+    section article:nth-child(2) {width: 100%;}
+    section article:nth-child(3) {width: 33.3333%;display: none;}
+    section article:nth-child(4) {width: 100%; display: none;}
+    section article:nth-child(5) {width: 50%;}
+    section article:nth-child(6) {width: 50%;}
+    section article:nth-child(6) p strong {
+        font-size: 25px;
+    }
+    section article:nth-child(6) p em {top: 35px; font-size: 15px;}
+    section article:nth-child(7) {width: 66.6666%; display: none;}
+    section article:nth-child(8) {width: 50%;}
+    section article:nth-child(9) {width: 50%;}
+    section article:nth-child(10) {width: 66.6666%; display: none;}
+    section article:nth-child(11) {width: 50%;}
+    section article:nth-child(12) {width: 50%;}
+    
+    
+    section article .txt01 p {
+        position: relative;
+        margin: 20px 0 0 20px;
+        transition-duration: 2s;
+    
+    }
+    section article .txt p {
+        margin: 20px 0 0 20px; 
+    }
+    section article .txt p strong {
+        font-size: 40px;
+        font-family: 'BenchNine', sans-serif;
+    }
+    section article .txt p em {
+        font-size: 20px;
+        margin-top: 15px;
+        font-weight: 400;
+    }
+    
+    section article .txt i {
+        z-index: -10;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 0%;
+        background-color: #f0c1c1;
+        transition-duration: 1s;
+    }
+    
+    section article .txt:hover i {
+        width: 100%;
+        height: 100%;
+    }
+    
+    section article .bg span {
+        position: absolute;
+        bottom: 20px;
+        right: 15px;
+        font-size: 100px;
+        font-weight: bold;
+        opacity: 0;
+        transition-duration: 1s;
+    }
+    
+    section article .bg:hover span {
+        opacity: 1;
+        font-size: 35px;
+    }
+    
+}
+
+
+
+
+
+
+@media screen and (max-width :479px) {
+    header {
+        position: fixed; width: 100%; height: 40px; background-color: transparent;
+        z-index: 5;
+    }
+    header h1 {
+        position: relative;
+        top: -10px; left: 0px; 
+        width: 150px; height: 45px;
+        box-sizing: border-box;
+        padding: 0;
+        font-size: 50px;
+    }
+    header  ul {
+        position: absolute;
+        top: 90px; right: 10px;
+        /* display: inline-block; */
+    }
+
+    header  ul li {
+        float: left; 
+        margin-left: 15px;
+        text-align: center;
+        font-size: 30px; font-family: 'BenchNine', sans-serif;
+    }
+    header  ul li a { 
+        z-index: 1;
+    }
+    header  ul li a  span {
+        position: absolute;
+        top: 25px; left: 0px;
+        /* display: none; */
+        width: 0%;
+        height: 10px;
+        background-color: #f29696;
+    }
+
+
+    header div  {
+      display: none;
+    }
+    nav {
+        display: none;
+    }
+    section {width: 100%; margin-left: 0px; z-index: 4;}
+    section article {display: none;}
+
+
+    section article:nth-child(1) { display: block; position: fixed; width: 100%; height: 300px;}
+ 
+}

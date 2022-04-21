@@ -1,0 +1,331 @@
+
+
+
+/*레이아웃*/
+header {
+    position: fixed;
+    width: 15%; height: 100%; background: #fff;
+    top: 0px; left: 0px; transition: all 0.5s;
+}
+
+header h1 {
+    width: 180px; height: 136px;
+    box-sizing: border-box;
+    padding-top: 32px;
+    margin: 30px auto;
+    font-size: 60px; font-family: 'Damion', cursive; 
+}
+
+header  ul {
+    position: absolute;
+    top: 300px; right: 57px;
+}
+header  ul li {
+   /*  display: block; */
+    font-size: 40px; font-family: 'BenchNine', sans-serif;
+    margin-bottom: 30px;
+}
+
+
+header  ul li a {
+    position: relative;
+    list-style: none;
+    text-decoration: none;
+    color: #212121;
+}
+
+header  ul li a:hover {
+    color: #e55d5d;
+}
+
+header  ul li a  span {
+    z-index: -100;
+    position: absolute;
+    top: 30px; left: 0px;
+    width: 0%;
+    height: 10px;
+    background-color: #f29696;
+    transform: skew(30deg); 
+    transition-duration: 1s;
+    /* animation: sppan 1s 1; */
+}
+
+
+ /* @keyframes sppan {
+     0% {width: 0%; }
+     100% {width: 100%; }
+ } */
+
+header  ul li a:hover span {
+    width: 100%;
+    transition-duration: 1s;
+}
+
+header div  {
+    text-align: center;
+    width: 200px; height: 47px; position: absolute; bottom: 50px; 
+    left: 12%;
+
+}
+
+header div a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px; color: black;
+}
+
+header div a:nth-child(1) {
+    padding-right: 5px;
+}
+
+header div a:nth-child(3) {
+    padding-left: 10px;
+}
+
+header div a:hover {
+    color: #e55d5d;
+}
+
+
+header div span {
+    border-right: 2px solid #212121;
+}
+
+
+
+nav {
+    position: relative; width: 85%; height: 35px;
+    background: #212121; margin-left: 15%;
+    transition: all 0.5s;
+}
+nav::after {
+    visibility: hidden;
+    display: block;
+    clear: both;
+    content: '';
+}
+
+nav a {
+    position: absolute;
+    font-size: 18px;
+    color: #bbb;
+    text-decoration: none;
+}
+nav a:nth-child(1) {
+    top: 5px;
+    left: 20px;
+}
+nav a:nth-child(2) {
+    top: 5px;
+    left: 80px;
+} 
+nav a:hover {
+    font-size: 20px;
+}
+ 
+nav form {
+    box-sizing: border-box;
+    float: right;
+    padding-top: 5px;
+    padding-right: 30px;
+}
+
+nav form input {
+    width: 180px;
+    height: 15px;
+    border: none;
+}
+nav form button {
+    width: 55px;
+    height: 20px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+
+
+section {
+    width: 85%; position: relative; margin-left: 15%;
+}
+section article{
+    float: left; height: 260px; transition: all 0.5s; animation: scale 1s 1;
+}
+
+section article div {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+}
+@keyframes scale {
+    0% {transform: scale(0);}
+    100% {transform: scale(1);}
+}
+
+section article div p strong {font-size: 40px; font-weight: bold;}
+section article div p em {
+    font-size: 18px; position: absolute;
+    top: 50px; line-height: 25px;
+}
+section article .txt01 {background-color: #e6aaaa;}
+section article .txt01 i {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 0%;
+    height: 100%; transition-duration: 2s;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+section article .txt01:hover i {
+    width: 100%;
+
+}
+section article .txt01:hover p {
+    z-index: 2;
+    color: #fff;
+}
+
+
+section article .txt01 p {
+    position: relative;
+    margin: 80px 0 0 40px;
+    transition-duration: 2s;
+
+}
+
+
+section article:nth-child(1) {
+    position: relative;
+    background-image: url(../img/이미지01.png);
+    width: 60%; height: 520px;
+    background-size: cover;
+    background-position: center center;
+}
+section article:nth-child(1) div {
+    position: absolute;
+    bottom: 10px; left: 0;
+    width: 0%;
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition-duration: 1s;
+}
+section article:nth-child(1) div span {
+     color: #fff;
+    font-size: 70px; font-family: 'Oleo Script', cursive;
+    transition-duration: 2s;
+    float: right;
+    padding: 10px 20px 0 0;
+}
+
+section article:nth-child(1):hover div {
+    width: 100%;
+}
+
+section article:nth-child(2) {
+    width: 40%;  
+}
+
+section article:nth-child(3) {
+    width: 20%; 
+}
+
+section article:nth-child(4) {
+    width: 20%; background-image: url(../img/이미지16.png) ;
+    background-size: cover;
+    background-position: center center;
+}
+
+section article:nth-child(5) {
+    width: 20%; 
+    background-image: url(../img/이미지17.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+section article:nth-child(6) {
+    width: 40%; 
+}
+
+section article:nth-child(7) {
+    width: 20%; 
+    background-image: url(../img/이미지04.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+section article:nth-child(8) {
+    width: 20%; 
+}
+
+
+section article:nth-child(9) {
+    width: 40%; 
+    background-image: url(../img/이미지05.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+section article:nth-child(10) {
+    width: 20%;
+    background-image: url(../img/이미지03.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+section article:nth-child(11) {
+    width: 20%;
+}
+
+section article:nth-child(12) {
+    width: 20%;
+    background-image: url(../img/이미지02.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+section article .txt p {
+    margin: 30px 0 0 20px; 
+}
+section article .txt p strong {
+    font-size: 40px;
+    font-family: 'BenchNine', sans-serif;
+}
+section article .txt p em {
+    font-size: 20px;
+    margin-top: 40px;
+    font-weight: 400;
+}
+
+section article .txt i {
+    z-index: -10;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background-color: #f0c1c1;
+    transition-duration: 1s;
+}
+
+section article .txt:hover i {
+    width: 100%;
+    height: 100%;
+}
+
+section article .bg span {
+    position: absolute;
+    bottom: 20px;
+    right: 15px;
+    font-size: 100px;
+    font-weight: bold;
+    opacity: 0;
+    transition-duration: 1s;
+}
+
+section article .bg:hover span {
+    opacity: 1;
+    font-size: 35px;
+}
